@@ -1,0 +1,301 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NBA Record Keeping
+</name>
+</assembly>
+<members>
+<member name="T:T1.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:T1.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:T1.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSet.File_ManagementDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSet.UserIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSet.File_ManagementRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSet.UserIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSet.File_ManagementRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSet.UserIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetTableAdapters.File_ManagementTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetTableAdapters.UserIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:T1.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(T1.DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:T1.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(T1.DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:T1.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(T1.DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:T1.DatabaseDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:T1.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateAll(T1.DatabaseDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetFinal">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetFinal.AdminDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetFinal.File_ManagementDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetFinal.UserIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetFinal.AdminRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetFinal.File_ManagementRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetFinal.UserIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetFinal.AdminRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetFinal.File_ManagementRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetFinal.UserIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetFinalTableAdapters.AdminTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetFinalTableAdapters.File_ManagementTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetFinalTableAdapters.UserIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetFinalTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:T1.DatabaseDataSetFinalTableAdapters.TableAdapterManager.UpdateUpdatedRows(T1.DatabaseDataSetFinal,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:T1.DatabaseDataSetFinalTableAdapters.TableAdapterManager.UpdateInsertedRows(T1.DatabaseDataSetFinal,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:T1.DatabaseDataSetFinalTableAdapters.TableAdapterManager.UpdateDeletedRows(T1.DatabaseDataSetFinal,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:T1.DatabaseDataSetFinalTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:T1.DatabaseDataSetFinalTableAdapters.TableAdapterManager.UpdateAll(T1.DatabaseDataSetFinal)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetFinalTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:T1.DatabaseDataSetFinalTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:T1.DataRecord">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:T1.DataRecord.File_ManagementDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:T1.DataRecord.UserIDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:T1.DataRecord.File_ManagementRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:T1.DataRecord.UserIDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:T1.DataRecord.File_ManagementRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:T1.DataRecord.UserIDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:T1.DataRecordTableAdapters.File_ManagementTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:T1.DataRecordTableAdapters.UserIDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:T1.DataRecordTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:T1.DataRecordTableAdapters.TableAdapterManager.UpdateUpdatedRows(T1.DataRecord,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:T1.DataRecordTableAdapters.TableAdapterManager.UpdateInsertedRows(T1.DataRecord,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:T1.DataRecordTableAdapters.TableAdapterManager.UpdateDeletedRows(T1.DataRecord,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:T1.DataRecordTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:T1.DataRecordTableAdapters.TableAdapterManager.UpdateAll(T1.DataRecord)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:T1.DataRecordTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:T1.DataRecordTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
